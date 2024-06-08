@@ -1,0 +1,53 @@
+.footer{
+    margin: 20px;
+}
+.foot{
+    margin: 20px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(24rem,1fr));
+    gap: 2rem;
+}
+.left{
+    display: flex;
+    align-items: flex-start;
+}
+.left img{
+    width: 45px;
+    height: 45px;
+}
+.left p{
+    font-size: 30px;
+}
+
+.foot .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.foot .right .itm{
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0)
+}
+
+.itm p{
+    padding: 8px;
+    color: rgb(56, 53, 53);
+}
+.head{
+    font-size: 26px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.credit{
+    font-size: 24px;
+    margin: 30px;
+    font-weight: 500;
+    color: rgb(90, 80, 80);
+    text-align: center;
+}

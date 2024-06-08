@@ -1,0 +1,50 @@
+.contact{
+    margin: 55px 80px;
+    height: 400px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 40%;
+}
+.left img{
+    width: 500px;
+    height: 350px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.right h1{
+    font-size: 45px;
+}
+.right p{
+    font-size: 20px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.btns button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: rgb(143, 173, 219);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

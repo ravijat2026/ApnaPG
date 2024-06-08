@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img{
+    width: 45px;
+}
+.nav-logo p{
+    color: rgb(41, 112, 218);
+    font-size: 35px;
+    font-weight: 500;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+    justify-content: space-around;
+    gap: 50px;
+    cursor: pointer;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-cart button{
+    width: 120px;
+    height: 55px;
+    outline: none;
+    border: 1px solid rgb(239, 199, 199);
+    border-radius: 60px;
+    color: rgb(86, 66, 66);
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+}
+.nav-login-cart button:active{
+    background: wheat;
+}
